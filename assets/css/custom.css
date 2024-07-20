@@ -1,0 +1,33 @@
+#result{
+    margin-top: 20px;
+    background-color: #333333;
+    list-style-type: none;
+    width: 400px;
+    position: absolute;
+    top: 32px;
+    z-index: 100;
+    padding-left: 0;
+}
+#result a{
+    color: #FFF;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    text-align: center;
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+}
+/* Clear floats after the columns */
+#rowsearch {
+    background-color: #333333;
+}
+#rowsearch:hover {
+    background-color: #674f4f;
+}
